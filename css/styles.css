@@ -1,0 +1,503 @@
+@charset "UTF-8";
+.titulo-header {
+  font-family: "Roboto";
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.logo {
+  height: 120px;
+  position: relative;
+  top: -35px;
+  left: 30px;
+}
+
+.fila {
+  width: 100%;
+}
+
+.columna {
+  flex: 25%;
+  padding: 10px;
+}
+.columna img {
+  width: 385px;
+  height: 313px;
+  padding: 23px;
+  margin-left: 170px;
+  position: relative;
+  top: 19px;
+}
+.columna:hover {
+  transform: scale(1.1);
+}
+
+@media (min-width: 400px) and (max-width: 700px) {
+  .titulo-header {
+    font-family: "Roboto";
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .logo {
+    height: 120px;
+    position: relative;
+    top: -35px;
+    left: 30px;
+  }
+  .fila {
+    width: 100%;
+  }
+  .columna {
+    flex: 25%;
+    padding: 10px;
+  }
+  .columna img {
+    width: 385px;
+    height: 313px;
+    padding: 23px;
+    margin-left: 170px;
+    position: relative;
+    top: 19px;
+  }
+  .columna:hover {
+    transform: scale(1.1);
+  }
+}
+.footer {
+  background-color: grey;
+  height: 70px;
+}
+
+.ig {
+  height: 60px;
+  padding: 10px;
+}
+.ig:hover {
+  transform: scale(1.7);
+}
+
+.tk {
+  height: 60px;
+  padding: 10px;
+}
+.tk:hover {
+  transform: scale(1.7);
+}
+
+.fb {
+  height: 60px;
+  padding: 10px;
+}
+.fb:hover {
+  transform: scale(1.7);
+}
+
+.seccionfooter {
+  display: flex;
+  justify-content: center;
+}
+
+.div_test {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div_test h1 {
+  color: red;
+  text-align: center;
+  font-family: "foods";
+  font-size: 3, 5rem;
+}
+
+.contenedor__productos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin: 1rem;
+  border: 1px solid black;
+}
+
+.contenedor__productos--contenedor {
+  margin-top: 10px;
+  width: 500px;
+  text-align: center;
+  padding: 10px;
+  margin-right: 10px;
+  border: 2px solid black;
+}
+
+.contenedor__productos--img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+.contenedor__productos--img:hover {
+  transform: scale(1.1);
+}
+
+@media (min-width: 320px) {
+  .contenedor__productos {
+    flex-wrap: wrap;
+  }
+}
+/* Estilos base para todas las imágenes */
+.img-container {
+  width: 100%;
+  max-width: 385px;
+  height: auto;
+  position: relative;
+}
+
+/* Estilos para las imágenes individuales */
+.cat {
+  left: 5%;
+  bottom: 25%;
+}
+
+.nudos {
+  left: 60%;
+  top: 5%;
+}
+
+.messi {
+  left: 75%;
+  bottom: 20%;
+}
+
+.rosa {
+  left: 5%;
+  top: 55%;
+}
+
+.str {
+  left: 5%;
+  top: 10%;
+}
+
+/* Estilos para los títulos */
+h2 {
+  font-family: "zilla";
+}
+
+.talleres {
+  position: relative;
+  left: 20%;
+  top: -45px;
+}
+
+.chakras {
+  position: relative;
+  left: 110%;
+  top: 200px;
+}
+
+.argentina {
+  position: relative;
+  left: 210%;
+  bottom: 94px;
+}
+
+.amistad {
+  position: relative;
+  left: 212%;
+  top: 490px;
+}
+
+.stranger {
+  position: relative;
+  top: 458px;
+  left: 40%;
+}
+
+.footer-pulsera {
+  background-color: grey;
+  position: relative;
+  top: 200px;
+}
+
+/* Media queries para ajustar el diseño en diferentes tamaños de pantalla */
+@media screen and (max-width: 400px) {
+  .img-container {
+    max-width: 100%;
+  }
+  .talleres, .chakras, .argentina, .amistad, .stranger {
+    left: 5%;
+  }
+  .chakras {
+    top: 150px;
+  }
+  .argentina {
+    left: 90%;
+    bottom: 20px;
+  }
+  .amistad {
+    top: 400px;
+  }
+  .stranger {
+    left: 10%;
+  }
+  .footer-pulsera {
+    top: 0;
+  }
+}
+.frasco {
+  width: 385px;
+  height: 313px;
+  position: relative;
+  left: 90px;
+  bottom: 260px;
+}
+
+.gris {
+  width: 385px;
+  height: 313px;
+  position: relative;
+  bottom: -15px;
+  left: 280px;
+}
+
+.bordo {
+  width: 385px;
+  height: 313px;
+  position: relative;
+  left: 450px;
+  bottom: 252px;
+}
+
+.alas {
+  width: 385px;
+  height: 313px;
+  position: relative;
+  top: 250px;
+  left: 61px;
+}
+
+.colores {
+  width: 385px;
+  height: 313px;
+  position: relative;
+  top: -70px;
+  left: 90px;
+}
+
+.verde {
+  position: relative;
+  left: 220px;
+  top: -45px;
+}
+
+.negro {
+  position: relative;
+  left: 770px;
+  top: 200px;
+}
+
+.rojo {
+  position: relative;
+  left: 1340px;
+  bottom: 94px;
+}
+
+.collares-rosa {
+  position: relative;
+  left: 1347px;
+  top: 380px;
+}
+
+.blanco {
+  position: relative;
+  top: 350px;
+  left: 200px;
+}
+
+.b-compra {
+  position: relative;
+  bottom: 545px;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  height: 50px;
+  width: 80px;
+  left: 8px;
+}
+
+.boton-ccc {
+  position: relative;
+  left: 335px;
+  bottom: 270px;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  height: 50px;
+  width: 80px;
+}
+
+.b-compra2 {
+  position: relative;
+  left: 1060px;
+  bottom: 535px;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  height: 50px;
+  width: 80px;
+}
+
+.b-c {
+  position: relative;
+  bottom: 548px;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  height: 50px;
+  width: 80px;
+  left: 8px;
+}
+
+.hola {
+  position: relative;
+  top: 160px;
+  left: 90px;
+}
+
+.hola-2 {
+  position: relative;
+  left: 1228px;
+  top: 150px;
+}
+
+.hola-3 {
+  position: relative;
+  left: 668px;
+  top: 395px;
+}
+
+.hola-4 {
+  position: relative;
+  top: 605px;
+  left: 1228px;
+}
+
+.hola-5 {
+  position: relative;
+  top: 585px;
+  left: 88px;
+}
+
+.b-c {
+  position: relative;
+  bottom: 548px;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  height: 50px;
+  width: 80px;
+  left: 8px;
+}
+
+.b-c2 {
+  position: relative;
+  left: 1060px;
+  bottom: 544px;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  height: 50px;
+  width: 80px;
+}
+
+.b-c3 {
+  position: relative;
+  left: 417px;
+  bottom: 277px;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  height: 50px;
+  width: 80px;
+}
+
+.b-c4 {
+  position: relative;
+  left: 910px;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  height: 50px;
+  width: 80px;
+  top: -37px;
+}
+
+.b-c5 {
+  position: relative;
+  right: 330px;
+  bottom: 428px;
+  height: 50px;
+  border-radius: 0.6rem;
+  width: 80px;
+  cursor: pointer;
+  top: -42px;
+}
+
+.footer-collares {
+  background-color: grey;
+  position: relative;
+  top: 88px;
+}
+
+.titulo-h2 {
+  position: relative;
+  left: 745px;
+  bottom: 60px;
+  font-size: 2.5rem;
+}
+
+.titulo-h3 {
+  font-family: "crete";
+  position: relative;
+  left: 1310px;
+  top: 160px;
+  font-size: 2rem;
+}
+
+.footer-sobrenosotros {
+  background-color: grey;
+  position: relative;
+  top: 188px;
+}
+
+.div-sobrenosotros {
+  display: flex;
+  min-width: 70vh;
+  overflow-x: hidden;
+}
+.div-sobrenosotros--contenido {
+  display: flex;
+  flex-direction: column;
+}
+.div-sobrenosotros--caja {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 700px;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.body-sobrenostros {
+  overflow-x: hidden;
+}
+
+.texto {
+  text-align: center;
+}
+
+.icon-cart{
+  width: 40px;
+  height: 40px;
+  stroke: #000;
+}
+
+.icon-cart:hover{
+  cursor: pointer;
+}
+
+img{
+  max-width: 100%;
+}
+
+/*# sourceMappingURL=styles.css.map */

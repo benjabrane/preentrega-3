@@ -1,0 +1,106 @@
+/* Estilos base para todas las imágenes */
+.img-container {
+    width: 100%;
+    max-width: 385px;
+    height: auto;
+    position: relative;
+}
+
+/* Estilos para las imágenes individuales */
+.cat {
+    left: 5%;
+    bottom: 25%;
+}
+
+.nudos {
+    left: 60%;
+    top: 5%;
+}
+
+.messi {
+    left: 75%;
+    bottom: 20%;
+}
+
+.rosa {
+    left: 5%;
+    top: 55%;
+}
+
+.str {
+    left: 5%;
+    top: 10%;
+}
+
+/* Estilos para los títulos */
+h2 {
+    font-family: "zilla";
+}
+
+.talleres {
+    position: relative;
+    left: 20%;
+    top: -45px;
+}
+
+.chakras {
+    position: relative;
+    left: 110%;
+    top: 200px;
+}
+
+.argentina {
+    position: relative;
+    left: 210%;
+    bottom: 94px;
+}
+
+.amistad {
+    position: relative;
+    left: 212%;
+    top: 490px;
+}
+
+.stranger {
+    position: relative;
+    top: 458px;
+    left: 40%;
+}
+
+.footer-pulsera {
+    background-color: grey;
+    position: relative;
+    top: 200px;
+}
+
+/* Media queries para ajustar el diseño en diferentes tamaños de pantalla */
+@media screen and (max-width: 400px) {
+    .img-container {
+        max-width: 100%;
+    }
+
+    .talleres, .chakras, .argentina, .amistad, .stranger {
+        left: 5%;
+    }
+
+    .chakras {
+        top: 150px;
+    }
+
+    .argentina {
+        left: 90%;
+        bottom: 20px;
+    }
+
+    .amistad {
+        top: 400px;
+    }
+
+    .stranger {
+        left: 10%;
+    }
+
+    .footer-pulsera {
+        top: 0;
+    }
+}

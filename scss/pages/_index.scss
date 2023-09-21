@@ -1,0 +1,45 @@
+.div_test {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   
+   .div_test h1 {
+       color: red;
+       text-align: center;
+       font-family: "foods";
+       font-size: 3,5rem;
+   }
+   .contenedor__productos{
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       text-align: center;
+       margin: 1rem;
+       border: 1px solid black;
+   }
+   
+   .contenedor__productos--contenedor {
+       margin-top: 10px;
+       width: 500px;
+       text-align: center;
+       padding: 10px;
+       margin-right: 10px;
+       border: 2px solid black;
+   }
+   
+   .contenedor__productos--img{
+       display: block;
+       margin: 0 auto;
+       max-width: 100%;
+       height: auto;
+       &:hover{transform: scale(1.1);
+
+       }
+   }
+   
+   @media (min-width: 320px) {
+       .contenedor__productos {
+         flex-wrap: wrap;
+       }
+     }
